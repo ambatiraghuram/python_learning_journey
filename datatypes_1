@@ -27,3 +27,23 @@ print(int(bmi))
 print(f"my height is  {height} and my weight is {weight} so my bmi is {bmi} and when i round it of it is {round(bmi,2)}")
 print(round(bmi))
 print(round(bmi, 5))
+
+
+#4 data types and manupulating strings
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? \n$"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 \n"))
+people = int(input("How many people to split the bill? \n"))
+total = ("Each person should pay "+ str((bill+(bill*tip/100))/people))
+print(total)
+
+#5
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? \n$"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 \n"))
+people = int(input("How many people to split the bill? \n"))
+total_bill_amount = float(((bill+(bill*tip/100))//people))
+total = ("Each person should pay "+ str(total_bill_amount))
+print(total)

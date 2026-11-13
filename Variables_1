@@ -1,0 +1,6 @@
+#06-11-2026:
+
+print("Hello,"+ input("what is your name?\n")+ "!")
+city = input("Which city you grew up in?\n")
+pet_name = input("What is the name of your pet?\n")
+print("Your band name is "+city+pet_name)

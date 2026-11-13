@@ -1,0 +1,29 @@
+#1
+len('12345')
+print(type("raghu"))
+print(type(12345))
+print(type(1234.567))
+print(type(False))
+
+user_name =input("Enter your name")
+length_of_user_name =len(user_name)
+print("Number of letters in your name: " + str(length_of_user_name))
+
+#2 type casting
+
+#print("My age: " + str(12))
+print(3 * 3 + 3 // 3 - 3)
+print(3*3+3-3*3)   #3
+print(3*3+3-3+3)     #12
+
+
+#3 Number rounding-manupulation
+height =1.65
+weight =84
+bmi = weight / height ** 2
+
+print(bmi)
+print(int(bmi))
+print(f"my height is  {height} and my weight is {weight} so my bmi is {bmi} and when i round it of it is {round(bmi,2)}")
+print(round(bmi))
+print(round(bmi, 5))

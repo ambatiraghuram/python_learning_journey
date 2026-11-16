@@ -1,3 +1,5 @@
+#1st practice
+
 weight = 85
 height = 2.85
 
@@ -10,5 +12,30 @@ if bmi < 18.5:
     print("underweight")
 elif bmi <25:
     print("normal weight")
+else:
+        print("overweight")
+
+
+#2nd practice
+
+weight = 85
+height = 1.85
+
+bmi = weight / (height ** 2)
+
+# 🚨 Do not modify the values above
+# Write your code below 👇
+print(bmi)
+if bmi < 18.5:
+    print("underweight")
+elif bmi <25:
+    print("normal weight")
+    
+    what_to_eat = input("Do you eat in your free time? say 'yes' or 'no'\n")
+    if what_to_eat =="yes":
+        print("Keep up with this")
+    else:
+        print("keep do mindful eating")
+            
 else:
         print("overweight")

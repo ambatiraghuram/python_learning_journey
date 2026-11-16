@@ -39,3 +39,34 @@ elif bmi <25:
             
 else:
         print("overweight")
+
+
+#3rd practice
+
+weight = 85
+height = 2.85
+
+bmi = weight / (height ** 2)
+
+# 🚨 Do not modify the values above
+# Write your code below 👇
+print(bmi)
+if bmi < 18.5:
+    print("underweight")
+    
+    how_much_to_eat = int(input("How many times do you eat rice?\n "))
+    if how_much_to_eat < 3:
+        print("increase the frequency of rice intake")
+    else:
+        print("keep going..")
+elif bmi <25:
+    print("normal weight")
+    
+    what_to_eat = input("Do you eat in your free time? say 'yes' or 'no'\n")
+    if what_to_eat =="yes":
+        print("Keep up with this")
+    else:
+        print("keep do mindful eating")
+            
+else:
+        print("overweight")
